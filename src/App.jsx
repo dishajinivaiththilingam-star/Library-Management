@@ -1,5 +1,6 @@
 import AddordeleteBook from "./Component/AddordeleteBook/AddordeleteBook"
 import Booklist from "./Component/BookList/Booklist"
+import Donate from "./Component/Donate/Donate"
 import Navbar from "./Component/NavBar/Navbar"
 
 
@@ -11,6 +12,7 @@ function App() {
        <Navbar/>
        <Booklist/>
        <AddordeleteBook/>
+       <Donate/>
     </>
   )
 }
