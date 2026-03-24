@@ -1,3 +1,5 @@
+import Donate from "./Component/Donate/Donate"
+import Home from "./Component/Home/Home"
 
 
 function App() {
@@ -5,9 +7,8 @@ function App() {
 
   return (
     <>
-       <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+      <Home/>
+      <Donate/>
     </>
   )
 }
