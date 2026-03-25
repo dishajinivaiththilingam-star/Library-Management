@@ -4,6 +4,8 @@ import Donate from "./Component/Donate/Donate"
 import Home from "./Component/Home/Home"
 import Homelist from "./Component/Home/Homelist"
 import Navbar from "./Component/NavBar/Navbar"
+import Donate from "./Component/Donate/Donate"
+import Home from "./Component/Home/Home"
 
 
 function App() {
@@ -18,6 +20,8 @@ function App() {
        <AddordeleteBook/>
        <Donate/>
        
+    <Home/>
+     <Donate/>
     </>
   )
 }
