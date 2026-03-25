@@ -13,6 +13,7 @@ function App() {
        <Booklist/>
        <AddordeleteBook/>
        <Donate/>
+       <Home/>
     </>
   )
 }
