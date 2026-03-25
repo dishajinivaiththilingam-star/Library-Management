@@ -10,13 +10,10 @@ function App() {
 
   return (
     <>
-      <Home/>
-      <Donate/>
-      <AddordeleteBook/>
-      
-      <Home />
+     <Navbar />
+     <Home />
+      <AddordeleteBook/> 
       <Donate />
-      <Navbar />
       <Booklist />
     </>
   )
