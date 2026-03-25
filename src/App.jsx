@@ -1,3 +1,4 @@
+import AddordeleteBook from "./Component/AddordeleteBook/AddordeleteBook"
 import Donate from "./Component/Donate/Donate"
 import Home from "./Component/Home/Home"
 
@@ -9,6 +10,7 @@ function App() {
     <>
       <Home/>
       <Donate/>
+      <AddordeleteBook/>
       
     </>
   )
