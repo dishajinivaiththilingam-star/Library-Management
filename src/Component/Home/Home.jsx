@@ -20,15 +20,31 @@ const Home = () => {
 
       </div>
       <div>
-        <p className='text-gray-500 text-center text-2xl pt-3'>Select the topic you are interested in</p>
+        <p className='text-gray-500 text-center text-4xl pt-5 font-bold'>Select the topic you are interested in</p>
       </div>
-      <div>
-        <div className='flex gap-30 ml-50 pt-5'>
-          <p className='border-1 border-gray-500 w-40 h-40 bg-gray-300 font-extrabold pl-5 pt-10 '><span><PiBooksFill /></span>Literature</p>
-          <p className='border-1 border-gray-500 w-40 h-40 bg-gray-300 font-extrabold pl-5 pt-10 '><span><FaBookQuran />Religious Books</span></p>
-          <p className='border-1 border-gray-500 w-40 h-40 bg-gray-300 font-extrabold pl-5 pt-10 '><span><FaPaintBrush /></span>Art</p>
-          <p className='border-1 border-gray-500 w-40 h-40 bg-gray-300 font-extrabold pl-5 pt-10 '><span><PiMathOperationsFill />Mathematics</span></p>
-          <p className='border-1 border-gray-500 w-40 h-40 bg-gray-300 font-extrabold pl-5 pt-10 '><span><IoAppsOutline /></span>See More</p>
+      <div className='pt-10'>
+        <div className='flex gap-10 justify-around  pt-5'>
+            <div className='w-50 shadow-lg text-3xl font-bold text-blue-900 '>
+              <img src="https://static.vecteezy.com/system/resources/previews/033/291/546/non_2x/literature-icon-in-illustration-vector.jpg" />
+              <p className='text-center'>Literature</p>
+            </div>
+            <div className='w-50 shadow-lg text-3xl font-bold text-blue-900 '>
+              <img src="https://static.vecteezy.com/system/resources/thumbnails/021/894/495/small/cute-eggplant-character-illustration-flat-eggplant-cartoon-character-waving-minimal-purple-eggplant-fruit-design-for-children-books-eggplant-cartoon-character-vector.jpg"  />
+              <p className='text-center'>Art</p>
+            </div>
+            <div className='w-50 shadow-lg text-3xl font-bold text-blue-900 '>
+              <img src="https://thumbs.dreamstime.com/b/math-icon-vector-symbols-collection-thin-line-outline-illustration-linear-symbol-use-web-mobile-apps-logo-print-143263139.jpg" />
+              <p className='text-center'>Mathematics</p>
+            </div>
+            <div className='w-50 shadow-lg text-3xl font-bold text-blue-900 '>
+              <img src="https://thumbs.dreamstime.com/b/global-icon-vector-image-suitable-mobile-application-web-print-media-327690712.jpg"/>
+              <p className='text-center'>Global</p>
+            </div>
+            <div className='w-50 shadow-lg text-3xl font-bold text-blue-900 '>
+              <img src="https://www.shutterstock.com/image-vector/read-more-icon-vector-260nw-735150244.jpg" />
+              <p className='text-center'>See More</p>
+            </div>
+            
         </div>
       </div>
       <div className='pt-10'>

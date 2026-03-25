@@ -1,8 +1,13 @@
+<<<<<<< HEAD
 import AddordeleteBook from "./Component/AddordeleteBook/AddordeleteBook"
 import Donate from "./Component/Donate/Donate"
 import Home from "./Component/Home/Home"
 import Booklist from "./Component/BookList/Booklist"
 import Navbar from "./Component/NavBar/Navbar"
+=======
+import Donate from "./Component/Donate/Donate"
+import Home from "./Component/Home/Home"
+>>>>>>> Mahiliny
 
 
 function App() {
@@ -10,11 +15,16 @@ function App() {
 
   return (
     <>
+<<<<<<< HEAD
      <Navbar />
      <Home />
       <AddordeleteBook/> 
       <Donate />
       <Booklist />
+=======
+    <Home/>
+     <Donate/>
+>>>>>>> Mahiliny
     </>
   )
 }
