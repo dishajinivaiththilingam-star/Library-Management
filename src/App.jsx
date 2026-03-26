@@ -1,3 +1,5 @@
+import Donate from "./Component/Donate/Donate"
+import Home from "./Component/Home/Home"
 
 import AddordeleteBook from "./Component/AddordeleteBook/AddordeleteBook";
 import Booklist from "./Component/BookList/Booklist";
@@ -18,6 +20,8 @@ function App() {
       <Homelist/>
       <Home/>
       <AddordeleteBook/>
+    <Home/>
+     <Donate/>
     </>
   );
 }
