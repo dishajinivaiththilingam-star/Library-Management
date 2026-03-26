@@ -4,7 +4,7 @@ import { IoLibrary } from 'react-icons/io5'
 const Donate = () => {
   return (
     <div>
-      <div className='bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% p-15'>
+      <div className='bg-gradient-to-rfrom-indigo-500 from-10% via-sky-500 via-30% p-15'>
         <p className='text-white text-2xl font-extrabold text-center'><span><IoLibrary className='ml-200 text-3xl' /></span>Donate Books to Library</p>
         <p className='text-white text-center '>Help others learn and grow</p>
       </div>
