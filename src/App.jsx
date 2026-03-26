@@ -14,14 +14,16 @@ function App() {
   return (
     <>
        <Navbar/>
-       {/* <Home/> */}
+        <Home/>
        <Homelist/>
        <Booklist/>
+       <Donate/>
        <AddordeleteBook/>
        {/* <Donate/> */}
+        {/* <Home/> */}
        
-    <Home/>
-     <Donate/>
+  
+     
     </>
   )
 }
