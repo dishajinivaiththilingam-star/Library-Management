@@ -8,7 +8,7 @@ const Donate = () => {
         <p className='text-white text-2xl font-extrabold text-center'><span><IoLibrary className='ml-200 text-3xl' /></span>Donate Books to Library</p>
         <p className='text-white text-center '>Help others learn and grow</p>
       </div>
-      <div className='w-150 ml-135 pt-20  '>
+      <div className='w-150 ml-100 pt-20  '>
         <div className=' shadow-xl pt-5  h-100'>
           <p className='text-center font-extrabold text-xl'>Donate Your Books</p>
           <input type="text" placeholder='Your Name' className='border-1 mt-8 rounded-[5px] ml-5 w-70' />

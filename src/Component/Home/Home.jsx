@@ -13,7 +13,7 @@ const Home = () => {
         style={{ backgroundImage: "url('https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdXB3azYxODA3MTcwLXdpa2ltZWRpYS1pbWFnZS1rb3drdW55dS5qcGc.jpg')" }}>
         <p className='text-white text-center font-extrabold text-7xl pt-50'>Library Management System</p>
         <div className='flex'>
-          <input type="text" placeholder='Search' className=' p-4 w-120 mt-10 ml-150 rounded-[15px] bg-gray-300 text-center' />
+          <input type="text" placeholder='Search' className=' p-4 w-120 mt-10 ml-110 rounded-[15px] bg-gray-300 text-center' />
           <span className='text-white text-[40px]  pt-12'><CiSearch /></span>
         </div>
 
