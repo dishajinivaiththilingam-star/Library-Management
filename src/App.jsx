@@ -1,5 +1,5 @@
-import Donate from "./Component/Donate/Donate"
-import Home from "./Component/Home/Home"
+// import Donate from "./Component/Donate/Donate"
+// import Home from "./Component/Home/Home"
 
 import AddordeleteBook from "./Component/AddordeleteBook/AddordeleteBook";
 import Booklist from "./Component/BookList/Booklist";
@@ -16,9 +16,9 @@ function App() {
        
     <Navbar/>
       <Booklist/>
-      <Donate/>
+      {/* <Donate/> */}
       <Homelist/>
-      <Home/>
+      {/* <Home/> */}
       <AddordeleteBook/>
     <Home/>
      <Donate/>
